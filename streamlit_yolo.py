@@ -6,7 +6,7 @@ import torch
 from ultralytics import YOLO
 
 # Load the YOLOv8 model (adjust the path to your model)
-model = YOLO("yolov8m.onnx")
+model = YOLO("yolov8m.pt")
 
 class VideoProcessor(VideoTransformerBase):
     def __init__(self):
