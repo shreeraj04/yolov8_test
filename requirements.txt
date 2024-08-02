@@ -3,3 +3,4 @@ ultralytics
 pandas
 Pillow
 shapely
+streamlit-webrtc
